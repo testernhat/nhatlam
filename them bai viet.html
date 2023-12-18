@@ -5,29 +5,139 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Giới thiệu về Ionicons</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/js/script.js">
-  <link rel="stylesheet" href="./assets/js/style.css">
+
+  <!--
+    - google font link
+  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mr Nhất" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mr Nhất">Mr Nhất</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      
+
+        
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
     <article class="about active" data-page="about">
-        <section class="about-text">
-            <h1>Giới thiệu</h1>
-            <p>Chào mừng bạn đến với trang web cá nhân của tôi! Tôi là một nhà phát triển web chuyên nghiệp với niềm đam mê mã hóa và thiết kế. Trang web này là nơi tôi chia sẻ công việc, dự án và sở thích của mình. Hãy khám phá và tìm hiểu thêm về tôi!</p>
-        </section>
-        <section class="about-text">
-            <h2>Dự án của tôi</h2>
-            <p>Tôi đã làm việc trên nhiều dự án thú vị trong suốt sự nghiệp của mình. Dưới đây là một số dự án tiêu biểu mà tôi đã tham gia.</p>
-            <!-- List of projects will go here -->
-        </section>
-        <section class="about-text">
-            <h2>Liên hệ</h2>
-            <p>Nếu bạn muốn liên hệ với tôi, hãy gửi email cho tôi hoặc kết nối với tôi trên các trang mạng xã hội.</p>
-        </section>
+      <section class="about-text">
+      <h1>Giới thiệu về Unpkg.com</h1>
+    <p>
+        Unpkg.com là một dịch vụ CDN (Content Delivery Network) toàn cầu, nhanh chóng cho tất cả mọi thứ trên npm. Dịch vụ này cung cấp khả năng truy cập tài nguyên tĩnh một cách nhanh chóng, chỉ cần tuân theo URL đã được thỏa thuận để truy cập, bạn có thể tải bất kỳ nội dung tệp nào trong gói npm.
+    </p>
+  </section>
+     
+  <section class="about-text">
+    <h1>Giới thiệu về Ionicons</h1>
+    <p>
+        Ionicons là một thư viện biểu tượng mã nguồn mở được thiết kế để sử dụng trong các ứng dụng web và di động. Thư viện này bao gồm hàng trăm biểu tượng được thiết kế tinh xảo, từ các biểu tượng cơ bản như "home", "search" và "heart", đến các biểu tượng phức tạp hơn như "airplane", "flame" và "color palette".
+    </p>
+  </section>
+
+  <section class="about-text">
+    <h1>Sử dụng Ionicons thông qua Unpkg.com</h1>
+    <p>
+        Để sử dụng Ionicons thông qua Unpkg.com, bạn chỉ cần thêm đường dẫn đến thư viện vào thẻ &lt;script&gt; trong mã HTML của bạn.
+     </p>
+    <p>
+      Ví dụ:
+    </p>
+    <h1>
+      <style>
+        pre {
+          font-size: 8px;
+        }
+        </style>
+    <pre>
+&lt;script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"&gt;&lt;/script&gt;
+       </pre>
+      </h1>
+    <p>
+        Sau khi thêm đường dẫn này, bạn có thể sử dụng các biểu tượng Ionicons trong ứng dụng của mình. Mỗi biểu tượng trong thư viện có một tên duy nhất, và bạn có thể thêm biểu tượng vào ứng dụng của mình bằng cách sử dụng thẻ &lt;ion-icon&gt; với thuộc tính name tương ứng.
+
+    </p>
+    <p>
+      Ví dụ:
+    </p>
+    <pre>
+ &lt;ion-icon name="heart"&gt;&lt;/ion-icon&gt;
+    </pre>
+
+    <h1>Kết luận</h1>
+    <p>
+        Ionicons là một thư viện biểu tượng phong phú và linh hoạt, và sự tích hợp với Unpkg.com giúp nó dễ dàng để thêm vào bất kỳ ứng dụng web nào. Bằng cách sử dụng Ionicons, các nhà phát triển có thể nhanh chóng và dễ dàng tạo ra các giao diện người dùng đẹp mắt và chuyên nghiệp. Unpkg.com và Ionicons cùng nhau tạo nên một giải pháp tuyệt vời cho việc phát triển ứng dụng web hiện đại.
+    </p>
+  </section>
+
     </article>
-</body>
-</html>
+    </body>
+    </html>
